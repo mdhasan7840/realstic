@@ -1,0 +1,398 @@
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /************code start***************/
+.navbar-toggler {
+    padding: -1.75rem -1.25rem;
+    font-size: 1rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: box-shadow .15s ease-in-out;
+    box-shadow:none;
+}
+.navbar .navbar-nav{
+	float:right;
+}
+.top-header{
+	text-align:center;
+	padding-left:30px;
+
+}
+.menu-bar .navbar img, svg {
+    vertical-align: middle;
+    width: 91px;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link:hover,.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link:focus{
+	background:url("../icons/under-hover.png")left bottom no-repeat;
+	background-size:auto;
+}
+.navbar-light .navbar-nav .nav-link:hover,.navbar-light .navbar-nav .nav-link:focus{
+	background:url("../icons/under-hover.png")left bottom no-repeat;
+	background-size:auto;
+}
+
+  /*banner*/
+  .banner-section .banner-description-right {
+    margin-top: 10px;
+}
+ .carousel .carousel-inner .carousel-item .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+   top: 5px;
+}
+.carousel .carousel-inner .carousel-item .carousel-caption h2 {
+    font-family: georgia;
+    text-transform: uppercase;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+.carousel .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 10px;
+    text-transform: capitalize;
+    font-weight: 400;
+    width: 100%;
+    margin: 0px auto 0px;
+}
+.carousel .carousel-inner .carousel-item .carousel-caption .btn-primary {
+    padding: 2px 10px;
+    background: #55415f;
+    border: 1px solid #55415f;
+    margin: 16px 0px 0px;
+    font-size:8px;
+}
+/*service section*/
+.service .inner-service{
+	width:100%;
+	margin:30px 0px 0px;
+	text-align:center;
+}
+.service .inner-service img{
+	width:150px;
+	height:100px;
+	margin-bottom:10px;
+}
+.service .inner-service h6{
+	color:#55415f;
+	font-size:16px;
+	font-weight:600;
+	text-transform:uppercase;
+}
+.service .inner-service p{
+	color:#807d77;
+	font-size:12;
+	
+
+}
+/*shout section*/
+.shout .shout-header h2{
+ 	color:#222222;
+ 	font-size:11px;
+ 	font-weight:700;
+ 	text-transform:capitalize;
+ 	line-height:21px;
+ 	margin:20px 0px 0px;
+ }
+/*footer*/
+
+
+
+
+    /************code start***************/
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+   /************code start***************/
+   .navbar-toggler {
+    padding: -1.75rem -1.25rem;
+    font-size: 1rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: box-shadow .15s ease-in-out;
+    box-shadow:none;
+}
+.navbar .navbar-nav{
+	float:right;
+}
+.top-header{
+	text-align:center;
+	padding-left:30px;
+
+}
+.menu-bar .navbar img, svg {
+    vertical-align: middle;
+    width: 91px;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link:hover,.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link:focus{
+	background:url("../icons/under-hover.png")left bottom no-repeat;
+	background-size:auto;
+}
+.navbar-light .navbar-nav .nav-link:hover,.navbar-light .navbar-nav .nav-link:focus{
+	background:url("../icons/under-hover.png")left bottom no-repeat;
+	background-size:auto;
+}
+  /*banner*/
+  .banner-section .banner-description-right {
+    margin-top: 10px;
+}
+
+ .carousel .carousel-inner .carousel-item .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+   top: 5px;
+}
+ /*banner*/
+  .banner-section .banner-description-right {
+    margin-top: 10px;
+}
+ .carousel .carousel-inner .carousel-item .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+   top: 5px;
+}
+.carousel .carousel-inner .carousel-item .carousel-caption h2 {
+    font-family: georgia;
+    text-transform: uppercase;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-top:48px;
+}
+.carousel .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 12px;
+    text-transform: capitalize;
+    font-weight: 400;
+    width: 100%;
+    margin: 0px auto 0px;
+}
+.carousel .carousel-inner .carousel-item .carousel-caption .btn-primary {
+    padding: 5px 10px;
+    background: #55415f;
+    border: 1px solid #55415f;
+    margin: 22px 0px 0px;
+    font-size:10px;
+}
+/*service section*/
+.service .inner-service{
+	width:100%;
+	margin:30px 0px 0px;
+	text-align:center;
+}
+.service .inner-service img{
+	width:150px;
+	height:100px;
+	margin-bottom:10px;
+}
+.service .inner-service h6{
+	color:#55415f;
+	font-size:16px;
+	font-weight:600;
+	text-transform:uppercase;
+}
+.service .inner-service p{
+	color:#7f7d77;
+	font-size:18px;
+	font-weigth:500;
+	text-transform:capitalize;
+	line-height:28px;
+	width:60%;
+	margin:0px auto 0px;
+	
+
+	
+
+}
+/*shout section*/
+.shout .shout-header h2{
+ 	color:#222222;
+ 	font-size:21px;
+ 	font-weight:700;
+ 	text-transform:capitalize;
+ 	line-height:21px;
+ 	margin:20px 0px 0px;
+ }
+ /*latest work section*/
+ .latest-work-section .inner-latest-section{
+ 	text-align:center;
+ }
+.latest-work-section .inner-latest-section p{
+	color:#7f7d77;
+	font-size:18px;
+	font-weigth:500;
+	text-transform:capitalize;
+	line-height:28px;
+	width:60%;
+	margin:0px auto 0px;
+}
+    /************code start***************/
+  
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+   /************code start***************/
+   .navbar-toggler {
+    padding: -1.75rem -1.25rem;
+    font-size: 1rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: box-shadow .15s ease-in-out;
+    box-shadow:none;
+}
+.navbar .navbar-nav{
+	float:right;
+}
+.top-header{
+	text-align:center;
+	padding-left:30px;
+
+}
+.menu-bar .navbar img, svg {
+    vertical-align: middle;
+    width: 91px;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link:hover,.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link:focus{
+	background:url("../icons/under-hover.png")left bottom no-repeat;
+	background-size:auto;
+}
+.navbar-light .navbar-nav .nav-link:hover,.navbar-light .navbar-nav .nav-link:focus{
+	background:url("../icons/under-hover.png")left bottom no-repeat;
+	background-size:auto;
+}
+  /*banner*/
+  .banner-section .banner-description-right {
+    margin-top: 10px;
+}
+
+ .carousel .carousel-inner .carousel-item .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+   top: 5px;
+}
+ /*banner*/
+  .banner-section .banner-description-right {
+    margin-top: 10px;
+}
+ .carousel .carousel-inner .carousel-item .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+   top: 5px;
+}
+.carousel .carousel-inner .carousel-item .carousel-caption h2 {
+    font-family: georgia;
+    text-transform: uppercase;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    font-size: 38px;
+    margin-top:120px;
+}
+.carousel .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 500;
+    width: 100%;
+    margin: 0px auto 0px;
+}
+.carousel .carousel-inner .carousel-item .carousel-caption .btn-primary {
+    padding: 8px 15px;
+    background: #55415f;
+    border: 1px solid #55415f;
+    margin: 45px 0px 0px;
+    font-size:14px;
+}
+/*service section*/
+.service .inner-service{
+	width:100%;
+	margin:30px 0px 0px;
+}
+.service .inner-service img{
+	width:150px;
+	height:100px;
+	margin-bottom:10px;
+}
+.service .inner-service h6{
+	color:#55415f;
+	font-size:16px;
+	font-weight:600;
+	text-transform:uppercase;
+}
+.service .inner-service p {
+    color: #807d77;
+    font-size: 14;
+    
+}
+/*shout section*/
+.shout .shout-header h2{
+ 	color:#222222;
+ 	font-size:23px;
+ 	font-weight:700;
+ 	text-transform:capitalize;
+ 	line-height:33px;
+ 	margin:50px 0px 0px;
+ }
+.second-col{
+	float:right;
+}
+.last-col{
+	float:right;
+}
+
+
+    /************code start***************/
+
+  
+}
+
